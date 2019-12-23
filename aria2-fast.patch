@@ -1,6 +1,6 @@
 --- aria2-1.34.0/src/OptionHandlerFactory.cc	2018-05-15 20:33:25.000000000 +0800
 +++ OptionHandlerFactory.cc	2018-07-05 10:40:25.000000000 +0800
-@@ -158,7 +158,7 @@
+@@ -161,7 +161,7 @@
    }
    {
      OptionHandler* op(new BooleanOptionHandler(
@@ -83,7 +83,7 @@
      handlers.push_back(op);
 --- aria2-1.34.0/src/bignum.h	2018-05-15 20:33:25.000000000 +0800
 +++ bignum.h	2018-07-05 12:11:30.000000000 +0800
-@@ -31,17 +31,17 @@
+@@ -33,17 +33,17 @@
    std::unique_ptr<char_t[]> buf_;
  
  public:
